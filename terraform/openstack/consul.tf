@@ -3,6 +3,7 @@ provider "openstack" {
     tenant_name = "${var.tenant_name}"
     password  = "${var.password}"
     auth_url  = "${var.auth_url}"
+    domain_name = "${var.domain_name}"
 }
 
 resource "openstack_compute_keypair_v2" "consul_keypair" {

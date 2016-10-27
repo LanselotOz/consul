@@ -3,6 +3,7 @@ variable "password" {}
 variable "tenant_name" {}
 variable "auth_url" {}
 variable "public_key" {}
+variable "domain_name" {}
 variable "user_login" {
     default = "stack"
 }
